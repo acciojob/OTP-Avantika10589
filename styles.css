@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    background: #f5f7fa;
+	
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.code {
+  width: 45px;
+  height: 55px;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.code:focus {
+  border-color: #4a90e2;
+}
